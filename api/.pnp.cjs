@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.18.6"],\
             ["@babel/node", "virtual:2f5d0af39c973cde20d2d732adfe92bb3ea81b524dfd60795ce2dea1d5676825224cf53bd78ebf79682da349b4ad9d7c1659d79ed3e0b339277e3a45a6fb4c9a#npm:7.18.6"],\
             ["@babel/preset-env", "virtual:2f5d0af39c973cde20d2d732adfe92bb3ea81b524dfd60795ce2dea1d5676825224cf53bd78ebf79682da349b4ad9d7c1659d79ed3e0b339277e3a45a6fb4c9a#npm:7.18.6"],\
+            ["dotenv", "npm:16.0.1"],\
             ["express", "npm:4.18.1"]\
           ],\
           "linkType": "SOFT"\
@@ -2998,6 +2999,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["dotenv", [\
+        ["npm:16.0.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.1-d99e72bb95-f459ffce07.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ee-first", [\
         ["npm:1.1.1", {\
           "packageLocation": "./.yarn/cache/ee-first-npm-1.1.1-33f8535b39-1b4cac778d.zip/node_modules/ee-first/",\
@@ -3448,6 +3458,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.18.6"],\
             ["@babel/node", "virtual:2f5d0af39c973cde20d2d732adfe92bb3ea81b524dfd60795ce2dea1d5676825224cf53bd78ebf79682da349b4ad9d7c1659d79ed3e0b339277e3a45a6fb4c9a#npm:7.18.6"],\
             ["@babel/preset-env", "virtual:2f5d0af39c973cde20d2d732adfe92bb3ea81b524dfd60795ce2dea1d5676825224cf53bd78ebf79682da349b4ad9d7c1659d79ed3e0b339277e3a45a6fb4c9a#npm:7.18.6"],\
+            ["dotenv", "npm:16.0.1"],\
             ["express", "npm:4.18.1"]\
           ],\
           "linkType": "SOFT"\

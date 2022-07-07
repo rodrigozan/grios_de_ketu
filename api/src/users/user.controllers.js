@@ -9,12 +9,19 @@ controller.get = async (req, res, next) => {
     next();
 }
 
-controller.getById = (req, res) => { }
+controller.getById = (req, res, next) => { }
 
-controller.post = (req, res) => { }
+controller.post = async (req, res, next) => {
+    const { nome, email } = req.body
+    console.log(`${nome}, ${email}`)
+    await UserService.insert(nome, email)
+        .then(res.status(201).json({ message: 'Users add successfully' }))
+        .catch(err => console.log(err));
+    next();
+}
 
-controller.update = (req, res) => { }
+controller.update = (req, res, next) => { }
 
-controller.delete = (req, res) => { }
+controller.delete = (req, res, next) => { }
 
 export default controller

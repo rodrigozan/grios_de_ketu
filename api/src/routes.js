@@ -1,5 +1,5 @@
 import express from 'express'
-import crtlUsers from './users/user.controller'
+import crtlUsers from './users/user.controllers'
 
 const router = express.Router()
 

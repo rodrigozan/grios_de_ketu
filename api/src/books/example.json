@@ -1,0 +1,26 @@
+{
+    "title": "Tamait e o Príncipe Dragão",
+    "author": "rodzandonadi",
+    "sinopse": "Uma mercenária com um passado complexo se vê no meio de uma trama para assassinar o príncipe dragão do reino",
+    "category": "Alta Fantasia",
+    "tags": ["fantasia", "dragões", "folclorebrasileiro", "elfos"],
+    "public": "juvenil",
+    "language": "português",
+    "copyrith": "Todos os Direitos Reservados",
+    "classification": false,
+    "chapters": [
+        { 
+            "title": "A Guilda de Aventureiros",
+            "text": "Este é o texto do capítulo",
+            "cover": "",
+            "comments": [
+                {
+                    "author": "Bardos de Litfan",
+                    "comment": "Surreal mano, curti esse cap",
+                    "datePublication": "2022-07-07"
+                }
+            ]
+        }
+    ],
+    "datePublication": "2022-07-07" 
+}

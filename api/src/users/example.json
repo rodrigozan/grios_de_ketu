@@ -1,0 +1,25 @@
+{
+    "username": "rodzandonadi",
+    "email": "rodzandonadi@gmail.com",
+    "password": "Seilad12",
+    "birthday": "1982-05-12",
+    "name": "Rod Zandonadi",
+    "pronouns": "Ele/Dele",
+    "street": "Rua Benedito Fraga da Silva",
+    "number": 1136,
+    "complement": "",
+    "district": "Galo Branco",
+    "city": "São José dos Campos",
+    "country": "Brasil",
+    "language": "português",
+    "socialMedia": [
+        { 
+            "facebook": "https://www.facebook.com/rodzandonadi",
+            "instagram": "https://www.instagram.com/rodzandonadi",
+            "twitter": "https://www.twitter.com/rodzandonadi",
+            "youtube": "https://www.youtube.com/rodzandonadi",
+            "skook": "https://www.skoob.com.br/usuario/789880-rodzandonadi"
+        }
+    ],
+    "about": "Só um cara que viaja por universos fantásticos e tem a cara de pau de escrever sobre essas viagens."
+}

@@ -10,4 +10,4 @@ router.post('/user/', crtlUsers.post)
 router.put('/user/:id/', crtlUsers.update)
 router.delete('/user/:id/', crtlUsers.delete)
 
-export default router
+export default router 

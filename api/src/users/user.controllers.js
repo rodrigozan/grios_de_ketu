@@ -10,33 +10,28 @@ controller.get = async (req, res, next) => {
 }
 
 controller.getById = async (req, res, next) => {
-    const id = req.params.id
-    await UserService.findById(id)
+    await UserService.findById(req.params.id)
         .then(user => res.status(201).json({ message: 'User successfully', user: user }))
         .catch(err => console.log(err));
     next();
 }
 
 controller.post = async (req, res, next) => {
-    const { nome, email } = req.body
-    await UserService.insert(nome, email)
+    await UserService.insert(req.body)
         .then(res.status(201).json({ message: 'Users add successfully' }))
         .catch(err => console.log(err));
     next();
 }
 
 controller.update = async (req, res, next) => { 
-    const { nome, email } = req.body
-    const id = req.params.id
-    await UserService.update(nome, email, id)
+    await UserService.update(req.body, req.params.id)
         .then(res.status(201).json({ message: 'User updated successfully' }))
         .catch(err => console.log(err));
     next();
 }
 
 controller.delete = async (req, res, next) => { 
-    const id = req.params.id
-    await UserService.remove(id)
+    await UserService.remove(req.params.id)
         .then(res.status(201).json({ message: 'User deleted successfully' }))
         .catch(err => console.log(err));
     next();
